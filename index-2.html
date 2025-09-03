@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshaya Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/4e3b1e6f9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Akshaya's portfolio</div> 
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="home">
+    <h1>Hello, I'm <span class="highlight">Akshaya</span> 🎀</h1>
+    <p>A passionate student who loves design, coding & creativity.</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-box">
+      <img src="me.jpg" alt="My photo" class="avatar">
+      <p>
+        I am a Data Science student who loves technology and design.  
+        My passion is creating beautiful and responsive websites.  
+        I also enjoy learning new skills and sharing my work.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>🌐 Portfolio Website</h3>
+        <p>A responsive website with a contact form.</p>
+      </div>
+      <div class="project">
+        <h3>📊 Data Analysis</h3>
+        <p>Explored and visualized datasets using Python.</p>
+      </div>
+      <div class="project">
+        <h3>🎮 Mini JS Game</h3>
+        <p>A fun interactive game built with JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Akshaya's Portfolio </p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
